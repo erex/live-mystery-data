@@ -92,11 +92,11 @@ kable(summarize_ds_models(unicos, hn,hr), digits=3,
 Recall, there are only 4 detections of females (10\% of data set).  Possibly, that few detections might not have a strong influence on the parameter estimates of the detection function.  Nevertheless, apply the covariate to our models at our truncation distance:
 
 ```{r withcov, message=FALSE}
-hn.sex <- ds(mydata, key="hn", adj="cos", truncation = truncate, convert.units = myunits,
+hn.sex <- ds(mydata, key="hn", truncation = 60, convert.units = myunits,
              formula=~sex)
-hr.sex <- ds(mydata, key="hr", adj="cos", truncation = truncate, convert.units = myunits,
+hr.sex <- ds(mydata, key="hr", truncation = 60, convert.units = myunits,
              formula=~sex)
-# unicos.sex <- ds(mydata, key="unif", adj="cos", truncation = truncate, convert.units = myunits,
+# unicos.sex <- ds(mydata, key="unif",  truncation = truncate, convert.units = myunits,
 # formula=~sex)
 ```
 
@@ -131,6 +131,20 @@ kable(summarize_ds_models(unicos, hn,hr, hn.sex, hr.sex), digits=3,
 
 Models without sex as a covariate estimate a larger $\hat{P_a}$, so even with only 4 female detections, those detections do exert an influence upon the shape of the estimated detection function and consequently upon $\hat{P_a}$.
 
+# Are estimated $\hat{P_a}(z_i)$ too small?
+
+```{r pdist}
+kable(p_dist_table(hn.sex, bins=seq(0,0.6,0.1), proportion=TRUE), 
+      caption="Estimated detection probabilities from HN with sex covariate.")
+```
+This distribution violates the guideline that <5\% of $\hat{P_a}$ should be less than 0.2.  But I'm willing to overlook that.  
+
+```{r}
+
+
+```
+
+
 # Estimated detection function
 
 ```{r bestdet}
@@ -147,13 +161,26 @@ legend("topright",
 
 Note the average (across sexes) detection probability curve is displaced toward the males that represent the largest proportion of the detections.
 
-
 # Estimated abundance
 
 ## Best model, Half normal with sex covariate
 ```{r}
 hn.sex$dht$individual$N
 ```
+
+If we wanted to employ the *gold standard* in precision estimation, we would apply a bootstrap
+
+```{r booter, results='hide'}
+bootout <- bootdht(hn.sex, flatfile=mydata, nboot=299, convert.units = myunits)
+```
+
+```{r plotit}
+hist(bootout$Nhat, breaks = 15, main="Distribution of bootstrap replicates")
+mybounds <- round(quantile(bootout$Nhat, c(0.025, 0.975),na.rm=TRUE))
+abline(v=mybounds, lwd=2, lty=3)
+```
+
+Confidence interval bounds from bootstrap are (`r mybounds`), somewhat wider than the analytical confidence interval bounds specified above.
 
 
 ## Closest AIC score competitor, Hazard rate with sex covariate
