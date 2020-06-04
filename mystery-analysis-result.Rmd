@@ -8,7 +8,7 @@ output:
 theme: flatly
 highlight: tango
 df_print: kable
-subtitle: Workshop, 04-15 May 2020
+subtitle: Workshop, 06-17 July 2020
 ---
   
 ```{r setup, include=FALSE}
@@ -171,11 +171,12 @@ hn.sex$dht$individual$N
 If we wanted to employ the *gold standard* in precision estimation, we would apply a bootstrap
 
 ```{r booter, results='hide'}
-bootout <- bootdht(hn.sex, flatfile=mydata, nboot=299, convert.units = myunits)
+bootout <- bootdht(hn.sex, flatfile=mydata, nboot=499, convert.units = myunits)
 ```
 
 ```{r plotit}
-hist(bootout$Nhat, breaks = 15, main="Distribution of bootstrap replicates")
+hist(bootout$Nhat, breaks = 20, 
+     main="Distribution of bootstrap replicates", xlab="Abundance estimate")
 mybounds <- round(quantile(bootout$Nhat, c(0.025, 0.975),na.rm=TRUE))
 abline(v=mybounds, lwd=2, lty=3)
 ```
