@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="868px" preserveAspectRatio="none" style="width:1106px;height:868px;" version="1.1" viewBox="0 0 1106 868" width="1106px" zoomAndPan="magnify"><defs><filter height="300%" id="f144q87uirxn5h" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[69b6c0d17d455a1031ab175a6f4800d0]
+cluster Exploratory--><polygon fill="#FFFFFF" filter="url(#f144q87uirxn5h)" points="16,6,116,6,123,28.2969,373,28.2969,373,629,16,629,16,6" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="16" x2="123" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="94" x="20" y="20.9951">Exploratory</text><!--MD5=[48c3e418bd9c70ecc03fa319c6f64b5e]
+cluster Selection--><polygon fill="#FFFFFF" filter="url(#f144q87uirxn5h)" points="413,383,494,383,501,405.2969,758,405.2969,758,856,413,856,413,383" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="413" x2="501" y1="405.2969" y2="405.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="75" x="417" y="397.9951">Selection</text><!--MD5=[b79227e5e4247375dc667b06f6ea6a65]
+cluster Final--><polygon fill="#FFFFFF" filter="url(#f144q87uirxn5h)" points="798,492,843,492,850,514.2969,1084,514.2969,1084,856,798,856,798,492" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="798" x2="850" y1="514.2969" y2="514.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="39" x="802" y="506.9951">Final</text><ellipse cx="194.6576" cy="568.9315" fill="#FEFECE" filter="url(#f144q87uirxn5h)" rx="72.6576" ry="16.9315" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="113" x="138.1576" y="573.5799">Plot histograms</text><ellipse cx="194.4687" cy="479.7927" fill="#FEFECE" filter="url(#f144q87uirxn5h)" rx="154.4687" ry="36.7927" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="76" x="156.4687" y="459.8776">Exact data</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="57.6439" x2="331.2936" y1="463.1794" y2="463.1794"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="63" x="162.9687" y="480.1745">QQ plots</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="243" x="72.9687" y="496.4714">Histograms with breaks argument</text><ellipse cx="194.4148" cy="370.1242" fill="#FEFECE" filter="url(#f144q87uirxn5h)" rx="141.9148" ry="38.1242" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="140" x="124.4148" y="352.5822">Preliminary analysis</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="63.7716" x2="325.0581" y1="355.884" y2="355.884"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="99" x="144.9148" y="372.8791">Simple model</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="213" x="87.9148" y="389.176">Look for assumption violation</text><ellipse cx="194.6878" cy="258.9941" fill="#FEFECE" filter="url(#f144q87uirxn5h)" rx="100.1878" ry="37.9941" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="102" x="143.6878" y="242.0022">First decisions</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="102.2299" x2="287.1457" y1="245.3039" y2="245.3039"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="156.1878" y="262.2991">Truncation</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="146" x="121.6878" y="278.5959">Grouping exact data</text><ellipse cx="194.6523" cy="158.0829" fill="#FEFECE" filter="url(#f144q87uirxn5h)" rx="87.6523" ry="28.0829" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="105" x="142.1523" y="151.2033">Clustered data</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="108.7143" x2="280.5904" y1="154.5051" y2="154.5051"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="125" x="132.1523" y="171.5002">Look for size bias</text><ellipse cx="194.7042" cy="71.9408" fill="#FEFECE" filter="url(#f144q87uirxn5h)" rx="102.7042" ry="22.9408" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="103.7042" y="76.5893">EDA for covariate effects</text><ellipse cx="585.6635" cy="793.1327" fill="#FEFECE" filter="url(#f144q87uirxn5h)" rx="86.1635" ry="19.6327" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="145" x="513.1635" y="797.7811">Grouped/Ungrouped</text><ellipse cx="585.4472" cy="724.0236" fill="#FEFECE" filter="url(#f144q87uirxn5h)" rx="57.4472" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="546.9472" y="728.6721">Truncation</text><ellipse cx="585.5818" cy="646.0557" fill="#FEFECE" filter="url(#f144q87uirxn5h)" rx="56.0818" ry="28.0557" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="71" x="550.0818" y="640.2246">Cutpoints</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="530.7284" x2="640.4353" y1="643.5264" y2="643.5264"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="548.5818" y="660.5215">if grouped</text><ellipse cx="585.6381" cy="553.9937" fill="#FEFECE" filter="url(#f144q87uirxn5h)" rx="113.1381" ry="28.9937" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="172" x="499.6381" y="550.5514">Fit key and adjustments</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="473.5013" x2="697.7748" y1="553.8532" y2="553.8532"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="137" x="517.1381" y="570.8483">possibly covariates</text><ellipse cx="585.6398" cy="458.128" fill="#FEFECE" filter="url(#f144q87uirxn5h)" rx="148.6398" ry="32.128" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="102" x="534.6398" y="443.6412">Choose model</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="447.2985" x2="723.981" y1="446.9429" y2="446.9429"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="276" x="447.6398" y="463.9381">using histograms, GOF, AIC, summaries</text><ellipse cx="940.8007" cy="798.0601" fill="#FEFECE" filter="url(#f144q87uirxn5h)" rx="60.8007" ry="14.5601" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="82" x="899.8007" y="802.7086">Best model</text><ellipse cx="940.9985" cy="705.8001" fill="#FEFECE" filter="url(#f144q87uirxn5h)" rx="118.9985" ry="41.8001" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="73" x="904.4985" y="681.7677">Bootstrap</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="838.6658" x2="1043.3313" y1="685.0695" y2="685.0695"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="835.6158" x2="1046.3813" y1="687.0695" y2="687.0695"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="142" x="869.9985" y="702.0646">variance estimation</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="823.4339" x2="1058.5631" y1="709.3664" y2="709.3664"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="849.9985" y="726.3615">perhaps model averaging</text><ellipse cx="940.7751" cy="582.0406" fill="#FEFECE" filter="url(#f144q87uirxn5h)" rx="111.2751" ry="46.5406" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="53" x="914.2751" y="552.6211">Extract</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="849.6736" x2="1031.8766" y1="555.9228" y2="555.9228"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="846.6066" x2="1034.9436" y1="557.9228" y2="557.9228"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="164" x="858.7751" y="572.9179">Histograms from plot()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="136" x="872.7751" y="589.2148">Plots from gof_ds()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="855.7751" y="605.5117">summarize_ds_models()</text><path d="M836,375 L836,415.2656 L1046,415.2656 L1046,385 L1036,375 L836,375 " fill="#FBFB77" filter="url(#f144q87uirxn5h)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M1036,375 L1036,385 L1046,385 L1036,375 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="57" x="842" y="392.0669">Iterative,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="189" x="842" y="407.1997">may need further exploration</text><!--MD5=[1f1cd8e6dd4c1b2ca2aaccc9b9bcea6e]
+link E1 to E2--><path d="M194.5,551.965 C194.5,542.07 194.5,532.176 194.5,522.281 " fill="none" id="E1-&gt;E2" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="194.5,517.107,190.5,526.107,194.5,522.107,198.5,526.107,194.5,517.107" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2720a5a1f2c3fca2055b230370638851]
+link E2 to E3--><path d="M194.5,442.617 C194.5,432.794 194.5,422.971 194.5,413.147 " fill="none" id="E2-&gt;E3" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="194.5,408.011,190.5,417.011,194.5,413.011,198.5,417.011,194.5,408.011" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[af87c684e3b0d8be13c1a698a818ef1e]
+link E3 to E4--><path d="M194.5,331.844 C194.5,321.99 194.5,312.136 194.5,302.282 " fill="none" id="E3-&gt;E4" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="194.5,297.129,190.5,306.129,194.5,302.129,198.5,306.129,194.5,297.129" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1b7591eae5389033d8d09a9d6721a717]
+link E4 to E5--><path d="M194.5,220.73 C194.5,210.993 194.5,201.255 194.5,191.517 " fill="none" id="E4-&gt;E5" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="194.5,186.425,190.5,195.425,194.5,191.425,198.5,195.425,194.5,186.425" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9120cf2e5df3bff93db8f754bbbc09b4]
+link E5 to E6--><path d="M194.5,129.781 C194.5,119.915 194.5,110.048 194.5,100.182 " fill="none" id="E5-&gt;E6" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="194.5,95.022,190.5,104.022,194.5,100.022,198.5,104.022,194.5,95.022" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[15cb110786dd224ca6a510a3d2a24e20]
+link S1 to S2--><path d="M585.5,773.324 C585.5,763.48 585.5,753.635 585.5,743.791 " fill="none" id="S1-&gt;S2" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="585.5,738.643,581.5,747.643,585.5,743.643,589.5,747.643,585.5,738.643" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8eac89d31ced3c9003fbd6a8a005c745]
+link S2 to S3--><path d="M585.5,709.375 C585.5,699.397 585.5,689.418 585.5,679.44 " fill="none" id="S2-&gt;S3" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="585.5,674.222,581.5,683.222,585.5,679.222,589.5,683.222,585.5,674.222" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[82e284a09e4ebade00512bdc77bff32c]
+link S3 to S4--><path d="M585.5,617.969 C585.5,608.181 585.5,598.392 585.5,588.604 " fill="none" id="S3-&gt;S4" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="585.5,583.486,581.5,592.486,585.5,588.486,589.5,592.486,585.5,583.486" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0e6b031b378ab8978eaa734a548bdfb6]
+link S4 to S5--><path d="M585.5,524.75 C585.5,514.906 585.5,505.063 585.5,495.219 " fill="none" id="S4-&gt;S5" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="585.5,490.071,581.5,499.071,585.5,495.071,589.5,499.071,585.5,490.071" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[bd056102942039e14815921525f42f1e]
+link S5 to N1--><path d="M700.783,437.633 C742.556,430.188 789.67,421.791 830.972,414.431 " fill="none" id="S5-&gt;N1" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="835.979,413.538,826.4169,411.1788,831.0565,414.4151,827.8202,419.0547,835.979,413.538" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[99ad0e6c72e62c3ac54b75f22557b03d]
+link N1 to E1--><path d="M883.052,374.866 C772.624,339.87 528.695,283 397,410 C376.964,429.322 407.57,514.266 389,535 C358.605,568.937 307.251,576.716 265.083,576.395 " fill="none" id="N1-&gt;E1" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="259.988,576.317,268.9252,580.4554,264.9874,576.3942,269.0487,572.4564,259.988,576.317" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[52c3a3a74096950e8486a9e799820f43]
+link Exploratory to Selection--><path d="M200.2943,629.1016 C203.0864,633.6989 207.059,640.0759 212.1088,647.7711 C222.2083,663.1615 236.6164,683.8251 254.5057,706.0706 C290.2845,750.5618 339.9885,801.381 397,829 C401.6377,831.2467 406.4144,833.2889 411.2956,835.1432 C411.6006,835.2591 411.9061,835.3742 412.212,835.4887 " fill="none" id="Exploratory-&gt;Selection" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="412.212,835.4887,405.1841,828.5888,407.529,833.7367,402.381,836.0816,412.212,835.4887" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[11c6941f3cdfcd21413ea346052ac038]
+link Selection to Final--><path d="M759.1881,848 C760.5471,848 761.9065,848 763.2659,848 C774.1408,848 785.0157,848 795.7258,848 C796.3952,848 797.0639,848 797.732,848 " fill="none" id="Selection-&gt;Final" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="797.732,848,788.732,844,792.732,848,788.732,852,797.732,848" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6250e50079a8abb3015221588e1cf1cf]
+link F1 to F2--><path d="M941,783.2656 C941,773.328 941,763.39 941,753.452 " fill="none" id="F1-&gt;F2" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="941,748.255,937,757.255,941,753.255,945,757.255,941,748.255" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[feb2e7bcdbea05082116d4a23c2e4dae]
+link F2 to F3--><path d="M941,663.859 C941,653.875 941,643.891 941,633.907 " fill="none" id="F2-&gt;F3" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="941,628.685,937,637.685,941,633.685,945,637.685,941,628.685" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[873bdfcc3bc99c3a5e7215232c0abb23]
+@startuml
+left to right direction
+
+package Exploratory{
+  usecase "Plot histograms" as E1
+  usecase E2 as "Exact data
+- -
+QQ plots
+Histograms with breaks argument" 
+  usecase E3 as"Preliminary analysis
+- -
+Simple model
+Look for assumption violation" 
+  usecase E4 as "First decisions
+- -
+Truncation
+Grouping exact data"
+  usecase E5 as "Clustered data
+- -
+Look for size bias"
+  usecase E6 as "EDA for covariate effects"
+}
+
+
+E1 -> E2
+E2 -> E3
+E3 -> E4
+E4 -> E5
+E5 -> E6
+
+package Selection{
+  usecase "Grouped/Ungrouped" as S1
+  usecase "Truncation" as S2
+  usecase S3 as "Cutpoints 
+- -
+if grouped"
+  usecase S4 as "Fit key and adjustments
+- -
+possibly covariates"
+  usecase S5 as "Choose model
+- -
+using histograms, GOF, AIC, summaries"
+}
+
+S1 -> S2
+S2 -> S3
+S3 -> S4
+S4 -> S5
+
+note "Iterative,\nmay need further exploration" as N1
+
+S5 ..> N1
+N1 ..> E1
+
+package Final{
+  usecase "Best model" as F1
+  usecase F2 as "Bootstrap
+==
+variance estimation
+- -
+perhaps model averaging"
+  usecase F3 as "Extract
+==
+Histograms from plot()
+Plots from gof_ds()
+summarize_ds_models()
+"
+}
+
+Exploratory - -> Selection
+Selection - -> Final
+F1 -> F2
+F2 -> F3
+@enduml
+
+PlantUML version 1.2020.16beta3(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g><head xmlns=""/></svg>

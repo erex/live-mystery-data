@@ -44,3 +44,7 @@ mydata <- read.csv("mystery.csv")
 What happens after this is up to you.
 
 ## `r knitr::asis_output("\U1F974      \U1F914")`
+
+
+```{r, out.width="100%", echo=FALSE, fig.cap="Three stages of distance sampling analysis."}
+knitr::include_graphics("analysis-hints.svg")
