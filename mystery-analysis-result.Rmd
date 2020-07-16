@@ -134,7 +134,7 @@ Models without sex as a covariate estimate a larger $\hat{P_a}$, so even with on
 # Are estimated $\hat{P_a}(z_i)$ too small?
 
 ```{r pdist}
-kable(p_dist_table(hn.sex, bins=seq(0,0.6,0.1), proportion=TRUE), 
+kable(p_dist_table(hn.sex, bins=seq(0,0.6,0.1), proportion=TRUE), digits=3,
       caption="Estimated detection probabilities from HN with sex covariate.")
 ```
 This distribution violates the guideline that <5\% of $\hat{P_a}$ should be less than 0.2.  But I'm willing to overlook that.  
@@ -190,3 +190,18 @@ hr.sex$dht$individual$N
 ```
 
 Notice the price, in terms of precision to be made for the extra parameter estimated in the hazard rate model compared to the half normal model.
+
+
+```{r, fig.width=7, fig.cap="Point and 95% interval estimates based upon truncation distance of 60m.", echo=FALSE}
+x <- rbind(hn.sex$dht$individuals$N, hr.sex$dht$individuals$N,
+           unicos$dht$individuals$N, hn$dht$individuals$N, 
+           hr$dht$individuals$N)
+x$Label <- c("Hn~sex", "Hr~sex", "Unicos", "Hn", "Hr")
+plot(1:5, x$Est, type="p", ylim=c(80,400), xaxt="n", xlab="Model", 
+     ylab="Abundance estimate", pch=20, cex=2, main="Mystery data analysis",
+     sub="Truth horizontal dashed line", font.main=4, font.sub=3)
+axis(1, at=1:5, labels=x$Label)
+nests <- seq(dim(x)[1])
+segments(nests, x$lcl[nests], nests, x$ucl[nests], lwd=2)
+abline(h=180, lwd=3, lty=3)
+```
