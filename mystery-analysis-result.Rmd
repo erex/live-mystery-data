@@ -1,7 +1,7 @@
 ---
 title: "Introduction to distance sampling"
 author: Centre for Research into Ecological and Environmental Modelling <br> **University of St Andrews**
-date: Mystery data set analysis <br> September 2020
+date: Mystery data set analysis <br> November 2020
 output:
   rmdformats::readthedown:
     highlight: tango
