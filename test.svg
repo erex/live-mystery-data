@@ -1,0 +1,84 @@
+<svg xmlns='http://www.w3.org/2000/svg' class="pikchr" width="753" height="508" viewBox="0 0 1076.34 727.51">
+<path d="M2,725L288,725L288,2L2,2Z"  style="fill:rgb(173,216,230);stroke-width:1.4472;stroke:rgb(0,0,0);" />
+<path d="M363,653L656,653L656,116L363,116Z"  style="fill:rgb(210,180,140);stroke-width:1.4472;stroke:rgb(0,0,0);" />
+<path d="M807,632L1012,632L1012,264L807,264Z"  style="fill:rgb(255,192,203);stroke-width:1.4472;stroke:rgb(0,0,0);" />
+<path d="M109,119L181,119A36 36 0 0 0 217 83A36 36 0 0 0 181 47L109,47A36 36 0 0 0 73 83A36 36 0 0 0 109 119Z"  style="fill:rgb(255,255,255);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="145" y="83" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">Plot histograms</text>
+<polygon points="145,139 140,128 149,128" style="fill:rgb(0,0,0)"/>
+<path d="M145,119L145,133"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M74,241L216,241A51 51 0 0 0 267 190A51 51 0 0 0 216 139L74,139A51 51 0 0 0 23 190A51 51 0 0 0 74 241Z"  style="fill:rgb(255,255,255);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="145" y="161" text-anchor="middle" font-weight="bold" fill="rgb(0,0,0)" font-size="137.5%" dominant-baseline="central">Exact data</text>
+<text x="145" y="190" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">QQ plots</text>
+<text x="145" y="216" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">Histograms many breaks</text>
+<polygon points="145,261 140,250 149,250" style="fill:rgb(0,0,0)"/>
+<path d="M145,241L145,255"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M60,363L230,363A51 51 0 0 0 281 312A51 51 0 0 0 230 261L60,261A51 51 0 0 0 9 312A51 51 0 0 0 60 363Z"  style="fill:rgb(255,255,255);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="145" y="284" text-anchor="middle" font-weight="bold" fill="rgb(0,0,0)" font-size="137.5%" dominant-baseline="central">Preliminary analysis</text>
+<text x="145" y="312" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">Simple model</text>
+<text x="145" y="338" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">Assumption violations?</text>
+<polygon points="145,383 140,372 149,372" style="fill:rgb(0,0,0)"/>
+<path d="M145,363L145,378"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M79,485L210,485A51 51 0 0 0 261 434A51 51 0 0 0 210 383L79,383A51 51 0 0 0 28 434A51 51 0 0 0 79 485Z"  style="fill:rgb(255,255,255);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="145" y="406" text-anchor="middle" font-weight="bold" fill="rgb(0,0,0)" font-size="137.5%" dominant-baseline="central">First decisions</text>
+<text x="145" y="434" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">Truncation</text>
+<text x="145" y="460" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">Binning exact distances</text>
+<polygon points="145,506 140,494 149,494" style="fill:rgb(0,0,0)"/>
+<path d="M145,485L145,500"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M82,582L207,582A38 38 0 0 0 245 544A38 38 0 0 0 207 506L82,506A38 38 0 0 0 44 544A38 38 0 0 0 82 582Z"  style="fill:rgb(255,255,255);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="145" y="528" text-anchor="middle" font-weight="bold" fill="rgb(0,0,0)" font-size="137.5%" dominant-baseline="central">Clustered data</text>
+<text x="145" y="557" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">Look for size bias</text>
+<polygon points="145,602 140,591 149,591" style="fill:rgb(0,0,0)"/>
+<path d="M145,582L145,596"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M71,641L218,641A19 19 0 0 0 237 621A19 19 0 0 0 218 602L71,602A19 19 0 0 0 52 621A19 19 0 0 0 71 641Z"  style="fill:rgb(255,255,255);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="145" y="621" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">Explore covariates</text>
+<text x="2" y="18" text-anchor="start" font-style="italic" fill="rgb(0,0,0)" font-size="137.5%" dominant-baseline="central">Exploratory phase</text>
+<path d="M430,209L590,209A19 19 0 0 0 609 190A19 19 0 0 0 590 171L430,171A19 19 0 0 0 411 190A19 19 0 0 0 430 209Z"  style="fill:rgb(255,255,255);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="510" y="190" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">Grouped/ungrouped</text>
+<polygon points="510,229 505,218 514,218" style="fill:rgb(0,0,0)"/>
+<path d="M510,209L510,224"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M472,268L548,268A19 19 0 0 0 567 248A19 19 0 0 0 548 229L472,229A19 19 0 0 0 453 248A19 19 0 0 0 472 268Z"  style="fill:rgb(255,255,255);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="510" y="248" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">Truncation</text>
+<polygon points="510,288 505,276 514,276" style="fill:rgb(0,0,0)"/>
+<path d="M510,268L510,282"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M480,364L540,364A38 38 0 0 0 578 326A38 38 0 0 0 540 288L480,288A38 38 0 0 0 442 326A38 38 0 0 0 480 364Z"  style="fill:rgb(255,255,255);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="510" y="310" text-anchor="middle" font-weight="bold" fill="rgb(0,0,0)" font-size="137.5%" dominant-baseline="central">Cutpoints</text>
+<text x="510" y="339" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">if grouped</text>
+<polygon points="510,384 505,373 514,373" style="fill:rgb(0,0,0)"/>
+<path d="M510,364L510,379"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M409,461L611,461A38 38 0 0 0 649 423A38 38 0 0 0 611 384L409,384A38 38 0 0 0 370 423A38 38 0 0 0 409 461Z"  style="fill:rgb(255,255,255);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="510" y="407" text-anchor="middle" font-weight="bold" fill="rgb(0,0,0)" font-size="137.5%" dominant-baseline="central">Key and adjustments</text>
+<text x="510" y="435" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">possibly covariates</text>
+<polygon points="510,481 505,470 514,470" style="fill:rgb(0,0,0)"/>
+<path d="M510,461L510,475"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M463,578L557,578A48 48 0 0 0 605 530A48 48 0 0 0 557 481L463,481A48 48 0 0 0 414 530A48 48 0 0 0 463 578Z"  style="fill:rgb(255,255,255);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="510" y="503" text-anchor="middle" font-weight="bold" fill="rgb(0,0,0)" font-size="137.5%" dominant-baseline="central">Choose model</text>
+<text x="510" y="530" text-anchor="middle" fill="rgb(0,0,0)" font-size="88%" dominant-baseline="central">with plots, GOF</text>
+<text x="510" y="550" text-anchor="middle" fill="rgb(0,0,0)" font-size="88%" dominant-baseline="central">AIC, summaries</text>
+<polygon points="363,384 351,385 353,377" style="fill:rgb(0,0,0)"/>
+<path d="M288,363L358,383"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="363" y="132" text-anchor="start" font-style="italic" fill="rgb(0,0,0)" font-size="137.5%" dominant-baseline="central">Selection phase</text>
+<path d="M474,95L546,95A36 36 0 0 0 582 59A36 36 0 0 0 546 23L474,23A36 36 0 0 0 438 59A36 36 0 0 0 474 95Z"  style="fill:rgb(255,0,0);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="510" y="59" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">May need to iterate</text>
+<polygon points="510,95 514,107 505,107" style="fill:rgb(0,0,0)"/>
+<path d="M510,116L510,101"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<polygon points="217,83 228,77 229,86" style="fill:rgb(0,0,0)"/>
+<path d="M438,59L222,82"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M813,345L891,345A19 19 0 0 0 910 326A19 19 0 0 0 891 307L813,307A19 19 0 0 0 794 326A19 19 0 0 0 813 345Z"  style="fill:rgb(255,255,255);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="852" y="326" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">Best model</text>
+<polygon points="910,346 905,335 914,335" style="fill:rgb(0,0,0)"/>
+<path d="M910,326L910,340"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M892,448L927,448A51 51 0 0 0 978 397A51 51 0 0 0 927 346L892,346A51 51 0 0 0 841 397A51 51 0 0 0 892 448Z"  style="fill:rgb(255,255,255);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="910" y="369" text-anchor="middle" font-weight="bold" fill="rgb(0,0,0)" font-size="137.5%" dominant-baseline="central">Bootstrap</text>
+<text x="910" y="397" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">for variance</text>
+<text x="910" y="423" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">estimation</text>
+<polygon points="978,417 974,406 983,406" style="fill:rgb(0,0,0)"/>
+<path d="M978,397L978,412"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M947,545L1010,545A63 63 0 0 0 1074 481A63 63 0 0 0 1010 417L947,417A63 63 0 0 0 883 481A63 63 0 0 0 947 545Z"  style="fill:rgb(255,255,255);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="978" y="440" text-anchor="middle" font-weight="bold" fill="rgb(0,0,0)" font-size="137.5%" dominant-baseline="central">Extract</text>
+<text x="978" y="468" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">Histograms [plot()]</text>
+<text x="978" y="494" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">Plots [gof_ds{}]</text>
+<text x="978" y="519" text-anchor="middle" fill="rgb(0,0,0)" font-size="110%" dominant-baseline="central">summarize_ds_fit()</text>
+<polygon points="807,448 795,448 798,440" style="fill:rgb(0,0,0)"/>
+<path d="M656,384L802,446"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="807" y="280" text-anchor="start" font-style="italic" fill="rgb(0,0,0)" font-size="137.5%" dominant-baseline="central">Final phase</text>
+</svg>

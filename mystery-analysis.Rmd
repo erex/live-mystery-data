@@ -43,4 +43,4 @@ What happens after this is up to you.
 
 
 ```{r, out.width="100%", echo=FALSE, fig.cap="Three stages of distance sampling analysis."}
-knitr::include_graphics("analysis-hints.svg")
+knitr::include_graphics("test.svg")

@@ -62,8 +62,8 @@ first <- ds(mydata, convert.units = myunits)
 ```{r plottrunc}
 plot(first, breaks=seq(0,80,length=17))
 abline(h=0.15, col="red", lty=3)
-text(x=60, y=0.2, "Pr(detect)=0.15", cex=.8)
-truncate <- 60
+text(x=50, y=0.2, "Pr(detect)=0.15", cex=.8)
+truncate <- 50
 ```
 
 # Key function decision
@@ -77,8 +77,8 @@ hr <- ds(mydata, key="hr", adj="cos", truncation = truncate, convert.units = myu
 Notice, adjustment terms did not survive the "within key function family" selection.
 
 ```{r}
-kable(summarize_ds_models(unicos, hn,hr), digits=3,
-                    caption="Key function models at 60m: do they fit?")  %>%
+kable(summarize_ds_models(unicos, hn,hr), digits=3, row.names = FALSE,
+                    caption="Key function models at 50m: do they fit?")  %>%
       kable_styling(full_width = F) %>%
       column_spec(4, background="yellow", width="8em")
 ```
@@ -88,9 +88,9 @@ kable(summarize_ds_models(unicos, hn,hr), digits=3,
 Recall, there are only 4 detections of females (10\% of data set).  Possibly, that few detections might not have a strong influence on the parameter estimates of the detection function.  Nevertheless, apply the covariate to our models at our truncation distance:
 
 ```{r withcov, message=FALSE}
-hn.sex <- ds(mydata, key="hn", truncation = 60, convert.units = myunits,
+hn.sex <- ds(mydata, key="hn", truncation = truncate, convert.units = myunits,
              formula=~sex)
-hr.sex <- ds(mydata, key="hr", truncation = 60, convert.units = myunits,
+hr.sex <- ds(mydata, key="hr", truncation = truncate, convert.units = myunits,
              formula=~sex)
 # unicos.sex <- ds(mydata, key="unif",  truncation = truncate, convert.units = myunits,
 # formula=~sex)
@@ -119,10 +119,10 @@ AIC(unicos, hn, hr, hn.sex, hr.sex)
 What emerges?  Half normal and uniform with cosine adjustment have very similar shapes and are quite similar models.  The hazard rate key without a covariate seems out of contention.  What about the similarity in $\hat{P_a}$ between competing models?
 
 ```{r lasttable}
-kable(summarize_ds_models(unicos, hn,hr, hn.sex, hr.sex), digits=3,
-                    caption="Five competiting models with truncation at 60m")  %>%
+kable(summarize_ds_models(unicos, hn,hr, hn.sex, hr.sex), digits=3, row.names = FALSE,
+                    caption="Five competing models with truncation at 50m")  %>%
       kable_styling(full_width = F) %>%
-      column_spec(6, background="yellow", width="8em")
+      column_spec(5, background="yellow", width="8em")
 ```
 
 Models without sex as a covariate estimate a larger $\hat{P_a}$, so even with only 4 female detections, those detections do exert an influence upon the shape of the estimated detection function and consequently upon $\hat{P_a}$.
@@ -130,8 +130,9 @@ Models without sex as a covariate estimate a larger $\hat{P_a}$, so even with on
 # Are estimated $\hat{P_a}(z_i)$ too small?
 
 ```{r pdist}
-kable(p_dist_table(hn.sex, bins=seq(0,0.6,0.1), proportion=TRUE), digits=3,
-      caption="Estimated detection probabilities from HN with sex covariate.")
+kable(p_dist_table(hn.sex, bins=seq(0,0.8,0.1), proportion=TRUE), digits=3,
+      caption="Estimated detection probabilities from HN with sex covariate.") %>%
+  kable_styling(full_width=FALSE, bootstrap_options="condensed")
 ```
 This distribution violates the guideline that <5\% of $\hat{P_a}$ should be less than 0.2.  But I'm willing to overlook that.  
 
@@ -188,12 +189,12 @@ hr.sex$dht$individual$N
 Notice the price, in terms of precision to be made for the extra parameter estimated in the hazard rate model compared to the half normal model.
 
 
-```{r, fig.width=7, fig.cap="Point and 95% interval estimates based upon truncation distance of 60m.", echo=FALSE}
+```{r, fig.width=7, fig.cap="Point and 95% interval estimates based upon truncation distance of 50m.", echo=FALSE}
 x <- rbind(hn.sex$dht$individuals$N, hr.sex$dht$individuals$N,
            unicos$dht$individuals$N, hn$dht$individuals$N, 
            hr$dht$individuals$N)
 x$Label <- c("Hn~sex", "Hr~sex", "Unicos", "Hn", "Hr")
-plot(1:5, x$Est, type="p", ylim=c(80,400), xaxt="n", xlab="Model", 
+plot(1:5, x$Est, type="p", ylim=c(80,550), xaxt="n", xlab="Model", 
      ylab="Abundance estimate", pch=20, cex=2, main="Mystery data analysis",
      sub="Truth horizontal dashed line", font.main=4, font.sub=3)
 axis(1, at=1:5, labels=x$Label)
