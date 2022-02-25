@@ -1,7 +1,7 @@
 ---
 title: Mystery data set analysis<br>results
 author: Centre for Research into Ecological and Environmental Modelling <br> **University of St Andrews**
-date: Introduction to distance sampling<br> January 2022
+date: Introduction to distance sampling<br> April 2022
 output:
   rmdformats::readthedown:
     highlight: tango
@@ -52,11 +52,11 @@ A *rule of thumb* (Lecture 2, slide 21)
 
 > Can also use estimated values of g(x) from fitted model as truncation criterion; truncate at w when g(w)=0.15
 
-I'm reasonably content to stick with this rule of thumb, could slice out one more data point, if I truncated at 55m.
+I'm reasonably content to stick with this rule of thumb, could slice out one more data point, if I truncated at 50m.
 
 ```{r trunc, message=FALSE}
 myunits <- convert_units("meter", "kilometer", "square kilometer")
-first <- ds(mydata, convert.units = myunits)
+first <- ds(mydata, convert_units = myunits)
 ```
 
 ```{r plottrunc}
@@ -69,9 +69,9 @@ truncate <- 50
 # Key function decision
 
 ```{r, message=FALSE}
-unicos <- ds(mydata, key="unif", adj="cos", truncation = truncate, convert.units = myunits)
-hn <- ds(mydata, key="hn", adj="cos", truncation = truncate, convert.units = myunits)
-hr <- ds(mydata, key="hr", adj="cos", truncation = truncate, convert.units = myunits)
+unicos <- ds(mydata, key="unif", adj="cos", truncation = truncate, convert_units = myunits)
+hn <- ds(mydata, key="hn", adj="cos", truncation = truncate, convert_units = myunits)
+hr <- ds(mydata, key="hr", adj="cos", truncation = truncate, convert_units = myunits)
 ```
 
 Notice, adjustment terms did not survive the "within key function family" selection.
@@ -88,11 +88,11 @@ kable(summarize_ds_models(unicos, hn,hr), digits=3, row.names = FALSE,
 Recall, there are only 4 detections of females (10\% of data set).  Possibly, that few detections might not have a strong influence on the parameter estimates of the detection function.  Nevertheless, apply the covariate to our models at our truncation distance:
 
 ```{r withcov, message=FALSE}
-hn.sex <- ds(mydata, key="hn", truncation = truncate, convert.units = myunits,
+hn.sex <- ds(mydata, key="hn", truncation = truncate, convert_units = myunits,
              formula=~sex)
-hr.sex <- ds(mydata, key="hr", truncation = truncate, convert.units = myunits,
+hr.sex <- ds(mydata, key="hr", truncation = truncate, convert_units = myunits,
              formula=~sex)
-# unicos.sex <- ds(mydata, key="unif",  truncation = truncate, convert.units = myunits,
+# unicos.sex <- ds(mydata, key="unif",  truncation = truncate, convert_units = myunits,
 # formula=~sex)
 ```
 
@@ -168,7 +168,7 @@ hn.sex$dht$individual$N
 If we wanted to employ the *gold standard* in precision estimation, we would apply a bootstrap
 
 ```{r booter, results='hide'}
-bootout <- bootdht(hn.sex, flatfile=mydata, nboot=499, convert.units = myunits)
+bootout <- bootdht(hn.sex, flatfile=mydata, nboot=499, convert_units = myunits)
 ```
 
 ```{r plotit}

@@ -1,7 +1,7 @@
 ---
 title: Mystery data set analysis
 author: Centre for Research into Ecological and Environmental Modelling <br> **University of St Andrews**
-date: Introduction to distance sampling<br> January 2022
+date: Introduction to distance sampling<br> April 2022
 output:
   rmdformats::readthedown:
     highlight: tango
@@ -43,4 +43,4 @@ What happens after this is up to you.
 
 
 ```{r, out.width="100%", echo=FALSE, fig.cap="Three stages of distance sampling analysis."}
-knitr::include_graphics("test.svg")
+knitr::include_graphics("new-analysis-hints.svg")
